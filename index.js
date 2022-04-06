@@ -1,7 +1,7 @@
 import { francAll } from 'franc';
 import langs from 'langs';
 
-const [node, script, input] = process.argv;
+const input = process.argv[2];
 const { log } = console;
 
 const getLanguage = (code) => langs.where("3", code);
